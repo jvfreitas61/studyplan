@@ -1,16 +1,92 @@
-# React + Vite
+# StudyPlan
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web para organização de tarefas de estudo durante a semana.
+O usuário pode adicionar, editar, remover e marcar tarefas como concluídas, organizando tudo por dias da semana e horários.
 
-Currently, two official plugins are available:
+O projeto foi desenvolvido utilizando React, com persistência de dados no localStorage, permitindo que as tarefas continuem salvas mesmo após recarregar a página.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Demonstração
 
-## React Compiler
+https://studyplan-theta.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Preview da aplicação
 
-## Expanding the ESLint configuration
+/screenshots/1.home.png
+/screenshots/2.modal.png
+/screenshots/3.adicionando tarefa.png
+/screenshots/4.tarefa adicionada.png
+/screenshots/5.marcando concluida.png
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Funcionalidades
+
+- Adicionar novas tarefas
+- Editar tarefas existentes
+- Remover tarefas
+- Marcar tarefas como concluídas
+- Organização das tarefas por dia da semana
+- Ordenação automática das tarefas por horário
+- Persistência de dados com localStorage
+- Interface responsiva
+
+# Tecnologias Utilizadas
+
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+- React + Vite
+- JavaScript (ES6+)
+- Tailwind CSS
+- Lucide React (ícones)
+- LocalStorage (persistência de dados)
+
+# Instalação e Execução
+
+Clone o repositório:
+
+git clone https://github.com/jvfreitas61/studyplan.git
+
+Entre na pasta do projeto:
+
+cd studyplan
+
+Instale as dependências:
+
+npm install
+
+Execute o projeto:
+
+npm run dev
+
+A aplicação estará disponível em:
+
+http://localhost:5173
+
+# Responsividade
+
+A aplicação foi desenvolvida com Tailwind CSS, utilizando um layout responsivo baseado em grid, adaptando-se para diferentes tamanhos de tela:
+
+- Mobile
+- Tablet
+- Desktop
+
+# Possíveis Melhorias Futuras
+
+Algumas melhorias que podem ser implementadas:
+
+- Notificações para tarefas próximas
+- Modo Dark
+- Dashboard de produtividade
+- Integração com banco de dados (Firebase ou MongoDB)
+- Sistema de login e autenticação
+- Integração com calendário
+
+# Autor
+
+Desenvolvido por João Victor de Freitas
+
+GitHub: https://github.com/jvfreitas61
+
+LinkedIn: https://www.linkedin.com/in/jvfreitas61/
+
+# Licença
+
+Este projeto está sob a licença MIT.

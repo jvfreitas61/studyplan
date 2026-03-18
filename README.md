@@ -12,11 +12,11 @@ https://studyplan-theta.vercel.app/
 # Preview da aplicação
 
 <p>
-<img src="/screenshots/1.home.png" title="Home" alt="Home" width="33%">
-<img src="/screenshots/2.modal.png" title="Modal" alt="Modal" width="33%">
-<img src="/screenshots/3.adicionando tarefa.png" title="Adicionando tarefa" alt="Adicionando tarefa" width="33%">
-<img src="/screenshots/4.tarefa adicionada.png" title="Tarefa adicionada" alt="Tarefa adicionada" width="33%">
-<img src="/screenshots/5.marcando concluida.png" title="Marcando concluída" alt="Marcando concluída" width="33%">  
+<img src="/screenshots/1.home.png" title="Home" alt="Home" width="30%">
+<img src="/screenshots/2.modal.png" title="Modal" alt="Modal" width="30%">
+<img src="/screenshots/3.adicionando tarefa.png" title="Adicionando tarefa" alt="Adicionando tarefa" width="30%">
+<img src="/screenshots/4.tarefa adicionada.png" title="Tarefa adicionada" alt="Tarefa adicionada" width="30%">
+<img src="/screenshots/5.marcando concluida.png" title="Marcando concluída" alt="Marcando concluída" width="30%">  
 </p>
 
 # Funcionalidades
